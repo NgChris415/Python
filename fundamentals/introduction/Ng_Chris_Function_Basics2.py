@@ -65,7 +65,7 @@ listy6 = []
 
 def length_and_value(length, value):
     i = 0
-    while i <= length:
+    while i <= length-1:
         listy6.append(value)
         i += 1 
 length_and_value(4,7)
