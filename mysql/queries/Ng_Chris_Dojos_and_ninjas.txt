@@ -1,0 +1,45 @@
+SELECT *
+FROM dojos;
+
+SELECT *
+From ninjas;
+
+INSERT INTO dojos (id, name, created_at, updated_at)
+VALUES (1, "Chris' Dojo", Now(), Now()),
+(2, "Graciela' Dojo", Now(), Now()),
+(3, "Kya' Dojo", Now(), Now());
+
+DELETE FROM dojos
+WHERE id IN (1,2,3);
+
+INSERT INTO dojos (id, name, created_at, updated_at)
+VALUES (1, "Chrees' Dojo", Now(), Now()),
+(2, "Ela's Dojo", Now(), Now()),
+(3, "NaNA's' Dojo", Now(), Now());
+
+INSERT INTO ninjas (id, first_name, last_name, dojo_id, created_at, updated_at)
+VALUES (1, "Steph", "Curry", 1, Now(), Now()),
+(2, "Klay", "Thompson", 1, Now(), Now()),
+(3, "Draymond", "Green", 1, Now(), Now());
+
+INSERT INTO ninjas (id, first_name, last_name, dojo_id, created_at, updated_at)
+VALUES (4, "Kevon", "Looney", 2, Now(), Now()),
+(5, "Andrew", "Wiggins", 2, Now(), Now()),
+(6, "Jordan", "Poole", 2, Now(), Now());
+
+INSERT INTO ninjas (id, first_name, last_name, dojo_id, created_at, updated_at)
+VALUES (7, "Andre", "Iguadola", 3, Now(), Now()),
+(8, "Moses", "Moodey", 3, Now(), Now()),
+(9, "Jonathan", "Kuminga", 3, Now(), Now());
+
+SELECT *
+FROM ninjas
+WHERE dojo_id = 1;
+
+Select *
+FROM ninjas
+Where dojo_id = 3;
+
+SELECT dojos.name 
+FROM ninjas LEFT JOIN dojos ON ninjas.dojo_id = dojos.id
+WHERE ninjas.id = 9;
