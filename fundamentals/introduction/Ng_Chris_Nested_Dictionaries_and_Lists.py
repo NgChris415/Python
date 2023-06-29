@@ -108,7 +108,7 @@ dojo = {
 
 def printInfo(some_dict):
     for key, val in some_dict.items():
-        print(f"{len(val)}{key}")
+        print(f"{len(val)} {key}")
         for i in range (0, len(val)):
             print(val[i])
 

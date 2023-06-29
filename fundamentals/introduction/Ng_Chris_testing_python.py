@@ -15,5 +15,5 @@ if day == 'Monday': #conditional
     print('It will be a long week!') #log statement, string
 elif(day == 'Friday'): #conditional
     print('Woohoo, time for the weekend!') #log statement, string
-else: #conditional
+else: #conditionals
     print('Not quite there yet.') #log statement, string

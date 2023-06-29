@@ -1,4 +1,4 @@
-CREATE DATABASE  IF NOT EXISTS `twitter` /*!40100 DEFAULT CHARACTER SET utf8 */;
+usersCREATE DATABASE  IF NOT EXISTS `twitter` /*!40100 DEFAULT CHARACTER SET utf8 */;
 USE `twitter`;
 -- MySQL dump 10.13  Distrib 5.6.19, for osx10.7 (i386)
 --

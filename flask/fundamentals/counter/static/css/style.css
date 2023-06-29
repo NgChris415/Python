@@ -1,0 +1,13 @@
+* {
+    margin: auto;
+}
+
+.container {
+    height: 200px;
+    width: 300px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
