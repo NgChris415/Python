@@ -1,0 +1,49 @@
+* {
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    display: flex;
+}
+
+.form_option {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.page_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.dojo_box {
+    border: solid 2px black;
+    height: 300px;
+    width: 300px;
+    overflow: auto;
+}
+
+.ninja_link {
+    margin-top: 5px;
+}
+
+.dojo_form {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.form_options_ninja {
+    padding: 5px;
+}
+
+.ninja_table {
+    padding: 5px;
+}
+
+.container_show_dojo {
+    display: flex;
+    flex-direction: column;
+}
