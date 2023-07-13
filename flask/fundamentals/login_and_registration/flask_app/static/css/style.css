@@ -1,0 +1,28 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.form_options {
+    margin-bottom: 5px;
+}
+
+.registration_form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 310px;
+    width: 400px;
+}
+
+.login_form {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    height: 310px;
+    width: 400px;
+}
